@@ -8,10 +8,10 @@ import { trackServerEvent } from "../lib/mixpanel";
 import { getSEOTags } from "../lib/seo";
 
 export const metadata: Metadata = getSEOTags({
-  appName: "ProjectInBio",
+  appName: "Codebio",
   appDescription:
-    "ProjectInBio - Seus projetos e redes sociais em um único link",
-  keywords: ["ProjectInBio", "projetos", "redes sociais", "link"],
+    "Codebio - Seus projetos e redes sociais em um único link",
+  keywords: ["Codebio", "projetos", "redes sociais", "link"],
   appDomain: "https://codebio.fecode.com.br/",
   canonicalUrlRelative: "/",
 });

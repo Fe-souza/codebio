@@ -12,7 +12,7 @@ export default function Pricing() {
           Junte-se à comunidade de criadores profissionais que já estão elevando
           sua <br />
           presença online. Teste gratuitamente por{" "}
-          <strong className="text-accent-pink">{TRIAL_DAYS} dias</strong>, sem
+          <strong className="text-accent-green">{TRIAL_DAYS} dias</strong>, sem
           compromisso!
         </p>
       </div>
@@ -29,10 +29,10 @@ export default function Pricing() {
           <Button variant="secondary">Assinar</Button>
         </div>
         <div className="flex flex-col">
-          <div className="flex justify-center items-center rounded-t-2xl p-2 w-[304px] bg-[linear-gradient(90deg,#4B2DBB_0%,#B5446B_100%)]">
+          <div className="flex justify-center items-center rounded-t-2xl p-2 w-[304px] bg-[linear-gradient(90deg,#0dc762_0%,#0c5b32_100%)]">
             <span className="uppercase text-xs font-bold">Recomendado</span>
           </div>
-          <div className="p-[1.6px] bg-[linear-gradient(90deg,#4B2DBB_0%,#B5446B_100%)] rounded-b-2xl">
+          <div className="p-[1.6px] bg-[linear-gradient(90deg,#0dc762_0%,#0c5b32_100%)] rounded-b-2xl">
             <div className="w-full bg-background-secondary p-8 flex flex-col gap-7 rounded-b-2xl">
               <div className="flex flex-col">
                 <span className="text-white font-bold text-2xl">Vitalício</span>

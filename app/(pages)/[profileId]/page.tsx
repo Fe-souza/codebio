@@ -14,8 +14,8 @@ import { increaseProfileVisits } from "@/app/actions/increase-profile-visits";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ProjectInBio - Perfil",
-  description: "ProjectInBio - A plataforma de gestão de projetos em biologia.",
+  title: "Codebio - Perfil",
+  description: "Codebio - A plataforma de gestão de projetos em biologia.",
 };
 
 export default async function ProfilePage({
