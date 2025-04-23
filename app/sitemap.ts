@@ -4,7 +4,7 @@ import { socialMedias } from "./server/get-texts-by-slug";
 export default function sitemap(): MetadataRoute.Sitemap {
   const socialMediaEntries: MetadataRoute.Sitemap = socialMedias.map(
     (media) => ({
-      url: `https://micro-saas-course-projectinbio-bice.vercel.app/recursos/link-na-bio-para-${media}`,
+      url: `https://codebio.fecode.com.br/recursos/link-na-bio-para-${media}`,
       lastModified: new Date().toISOString(),
       changeFrequency: "monthly",
       priority: 0.5,
@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticEntries: MetadataRoute.Sitemap = [
     {
-      url: "https://micro-saas-course-projectinbio-bice.vercel.app/",
+      url: "https://codebio.fecode.com.br/",
       lastModified: new Date().toISOString(),
       changeFrequency: "monthly",
       priority: 1,
