@@ -33,12 +33,12 @@ export function getSEOTags({
       type: "website",
     },
 
-    twitter: {
-      title: appName,
-      description: appDescription,
-      card: "summary_large_image",
-      creator: "@vinifrags",
-    },
+    // twitter: {
+    //   title: appName,
+    //   description: appDescription,
+    //   card: "summary_large_image",
+    //   creator: "@fecode",
+    // },
 
     alternates: {
       canonical: canonicalUrlRelative,

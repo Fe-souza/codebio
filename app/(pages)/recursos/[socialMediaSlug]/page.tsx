@@ -23,7 +23,7 @@ export default async function LinkInBio({
     <div className="max-w-7xl mx-auto">
       <Header />
       <Hero texts={texts} />
-      <VideoExplanation />
+      {/* <VideoExplanation /> */}
       <Pricing />
       <FAQ />
     </div>
