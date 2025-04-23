@@ -12,7 +12,7 @@ export const metadata: Metadata = getSEOTags({
   appDescription:
     "ProjectInBio - Seus projetos e redes sociais em um único link",
   keywords: ["ProjectInBio", "projetos", "redes sociais", "link"],
-  appDomain: "https://micro-saas-course-projectinbio-bice.vercel.app/",
+  appDomain: "https://codebio.fecode.com.br/",
   canonicalUrlRelative: "/",
 });
 

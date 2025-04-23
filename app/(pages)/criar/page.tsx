@@ -5,8 +5,8 @@ import { trackServerEvent } from "@/app/lib/mixpanel";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ProjectInBio - Criar",
-  description: "ProjectInBio - Criar",
+  title: "Codebio - Criar",
+  description: "Codebio - Criar",
 };
 
 export default function CriarPage() {
