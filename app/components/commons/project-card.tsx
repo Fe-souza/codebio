@@ -32,7 +32,7 @@ export default function ProjectCard({
     <Link href={formattedUrl} target="_blank" onClick={handleClick}>
       <div className="w-[340px] h-[132px] flex gap-5 bg-background-secondary p-3 rounded-[20px] border border-transparent hover:border-border-secondary">
         <div className="size-24 rounded-md overflow-hidden flex-shrink-0">
-          <img src={img} alt="Projeto" className="w-full h-full object-cover" />
+          <img src={img} alt="Link" className="w-full h-full object-cover" />
         </div>
         <div className="flex flex-col gap-2">
           {isOwner && (

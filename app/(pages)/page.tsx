@@ -10,8 +10,8 @@ import { getSEOTags } from "../lib/seo";
 export const metadata: Metadata = getSEOTags({
   appName: "Codebio",
   appDescription:
-    "Codebio - Seus projetos e redes sociais em um único link",
-  keywords: ["Codebio", "projetos", "redes sociais", "link"],
+    "Codebio - Seus links e redes sociais em um único link",
+  keywords: ["Codebio", "links", "redes sociais", "link"],
   appDomain: "https://codebio.fecode.com.br/",
   canonicalUrlRelative: "/",
 });

@@ -34,15 +34,15 @@ export default function Hero({
           </div>
           <div className="absolute top-[20%] -left-[45%] -z-10">
             <ProjectCard
-              name="Projeto 1"
-              description="Descrição do projeto 1"
+              name="Link 1"
+              description="Descrição do link 1"
               img="/project1.jpg"
             />
           </div>
           <div className="absolute -top-[5%] -left-[55%] -z-10">
             <ProjectCard
-              name="Projeto 2"
-              description="Descrição do projeto 2"
+              name="Link 2"
+              description="Descrição do link 2"
               img="/project2.jpg"
             />
           </div>

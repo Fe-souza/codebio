@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Codebio - Upgrade",
-  description: "Codebio - A plataforma de gestão de projetos em biologia.",
+  description: "Codebio - A plataforma de gestão de links em biologia.",
 };
 
 export default async function UpgradePage() {

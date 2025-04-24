@@ -67,11 +67,11 @@ export default function NewProject({ profileId }: { profileId: string }) {
         className="w-[340px] h-[132px] rounded-[20px] bg-background-secondary flex items-center gap-2 justify-center hover:border hover:border-dashed border-border-secondary"
       >
         <Plus className="size-10 text-accent-green" />
-        <span>Novo projeto</span>
+        <span>Novo link</span>
       </button>
       <Modal isOpen={isOpen} setIsOpen={setIsOpen}>
         <div className="bg-background-primary p-8 rounded-[20px] flex flex-col justify-between gap-10">
-          <p className="text-white font-bold text-xl">Novo projeto</p>
+          <p className="text-white font-bold text-xl">Novo link</p>
           <div className="flex gap-10">
             <div className="flex flex-col items-center gap-3 text-xs">
               <div className="w-[100px] h-[100px] rounded-xl bg-background-tertiary overflow-hidden">
@@ -108,11 +108,11 @@ export default function NewProject({ profileId }: { profileId: string }) {
             <div className="flex flex-col gap-4 w-[293px]">
               <div className="flex flex-col gap-1">
                 <label htmlFor="project-name" className="text-white font-bold">
-                  Titulo do projeto
+                  Titulo do link
                 </label>
                 <TextInput
                   id="project-name"
-                  placeholder="Digite o nome do projeto"
+                  placeholder="Digite o nome do link"
                   value={projectName}
                   onChange={(e) => setProjectName(e.target.value)}
                 />
@@ -126,7 +126,7 @@ export default function NewProject({ profileId }: { profileId: string }) {
                 </label>
                 <TextArea
                   id="project-description"
-                  placeholder="Dê uma breve descrição do seu projeto"
+                  placeholder="Dê uma breve descrição do seu link"
                   className="h-36"
                   value={projectDescription}
                   onChange={(e) => setProjectDescription(e.target.value)}
@@ -134,12 +134,12 @@ export default function NewProject({ profileId }: { profileId: string }) {
               </div>
               <div className="flex flex-col gap-1">
                 <label htmlFor="project-url" className="text-white font-bold">
-                  URL do projeto
+                  URL
                 </label>
                 <TextInput
                   type="url"
                   id="project-description"
-                  placeholder="Digite a URL do projeto"
+                  placeholder="Digite a URL"
                   value={projectUrl}
                   onChange={(e) => setProjectUrl(e.target.value)}
                 />
