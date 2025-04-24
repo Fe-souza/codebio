@@ -23,7 +23,7 @@ export default function Pricing() {
             <span className="text-content-body">Apenas</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-white font-bold text-[48px]">R$9,90</span>
+            <span className="text-white font-bold text-[48px]">R$5,00</span>
             <span className="text-content-headline text-2xl">/mês</span>
           </div>
           <Button variant="secondary">Assinar</Button>
@@ -40,7 +40,7 @@ export default function Pricing() {
               </div>
               <div className="flex items-center gap-1">
                 <span className="text-white font-bold text-[48px]">
-                  R$99,90
+                  R$50,00
                 </span>
               </div>
               <Button variant="secondary">Assinar</Button>

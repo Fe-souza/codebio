@@ -2,18 +2,18 @@ const faqItems = [
   {
     title: "Como funciona a criação de portfólio e links com Codebio",
     description:
-      "Com Codebio, você pode criar um portfólio profissional e uma página de links em poucos minutos. Nossa plataforma oferece templates personalizáveis e uma interface fácil de usar para que você possa mostrar seu trabalho e organizar seus links de maneira eficiente.",
+      "Com Codebio, você pode criar um portfólio profissional e uma página de links em poucos minutos. Nossa plataforma tem uma interface fácil de usar para que você possa mostrar seu trabalho e organizar seus links de maneira eficiente.",
   },
   {
     title: "Há um período de teste gratuito?",
     description:
       "Sim! Oferecemos um teste gratuito de 7 dias, sem compromisso. Isso permite que você explore todas as funcionalidades da nossa plataforma antes de decidir por uma assinatura.",
   },
-  {
-    title: "Posso personalizar o design do meu portfólio?",
-    description:
-      "Sim! Com Codebio, você pode personalizar cores, fontes e o layout do seu portfólio, garantindo que ele reflita a sua marca pessoal.",
-  },
+  // {
+  //   title: "Posso personalizar o design do meu portfólio?",
+  //   description:
+  //     "Sim! Com Codebio, você pode personalizar cores, fontes e o layout do seu portfólio, garantindo que ele reflita a sua marca pessoal.",
+  // },
   {
     title: "Preciso de habilidades técnicas para usar a plataforma?",
     description:

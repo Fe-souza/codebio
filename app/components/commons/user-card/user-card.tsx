@@ -93,7 +93,7 @@ export default async function UserCard({
           )}
         </div>
       </div>
-      <div className="flex flex-col gap-3 w-full min-h-[172px]">
+      {/* <div className="flex flex-col gap-3 w-full min-h-[172px]">
         <div className="w-full flex flex-col items-center gap-3">
           {profileData?.link1 && (
             <Link
@@ -129,7 +129,7 @@ export default async function UserCard({
           )}
           {isOwner && <AddCustomLink />}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

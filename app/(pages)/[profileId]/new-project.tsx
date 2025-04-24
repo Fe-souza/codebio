@@ -23,18 +23,24 @@ export default function NewProject({ profileId }: { profileId: string }) {
   const [projectUrl, setProjectUrl] = useState("");
   const [projectImage, setProjectImage] = useState<string | null>(null);
   const [isCreatingProject, setIsCreatingProject] = useState(false);
+  const [imageError, setImageError] = useState("");
+  
 
   const handleOpenModal = () => {
     setIsOpen(true);
   };
 
   async function handleCreateProject() {
+  
     setIsCreatingProject(true);
     const imagesInput = document.getElementById(
       "imageInput"
     ) as HTMLInputElement;
-
-    if (!imagesInput.files?.length) return;
+   
+    if (!imagesInput.files?.length){
+      setImageError("Erro ao enviar a imagem, por favor selecionar outra imagem e tentar novament.")
+      return;
+    }
 
     const compressedFile = await compressFiles(Array.from(imagesInput.files));
 
@@ -46,7 +52,9 @@ export default function NewProject({ profileId }: { profileId: string }) {
     formData.append("projectDescription", projectDescription);
     formData.append("projectUrl", projectUrl);
 
+
     await createProject(formData);
+    
 
     startTransition(() => {
       setIsOpen(false);
@@ -144,6 +152,9 @@ export default function NewProject({ profileId }: { profileId: string }) {
                   onChange={(e) => setProjectUrl(e.target.value)}
                 />
               </div>
+            </div>
+            <div>
+              <span className="text-accent-pink" id="error-project">{imageError}</span>
             </div>
           </div>
           <div className="flex gap-4 justify-end">

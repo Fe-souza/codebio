@@ -46,3 +46,28 @@ export async function createProject(formData: FormData) {
     return false;
   }
 }
+
+
+export async function deleteProject(profileId: string, projectId: string, imagePath: string) {
+  const session = await auth();
+  if (!session) return;
+
+  try {
+    // Remove o documento do Firestore
+    await db
+      .collection("profiles")
+      .doc(profileId)
+      .collection("projects")
+      .doc(projectId)
+      .delete();
+
+    // Remove a imagem do storage
+    const storageRef = storage.file(imagePath);
+    await storageRef.delete();
+
+    return true;
+  } catch (error) {
+    console.error("Erro ao deletar projeto:", error);
+    return false;
+  }
+}

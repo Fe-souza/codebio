@@ -18,7 +18,7 @@ export default function PlanButtons() {
           })
         }
       >
-        R$ 9,90 / mês
+        R$ 5,00 / mês
       </Button>
       <Button
         onClick={() =>
@@ -28,7 +28,7 @@ export default function PlanButtons() {
           })
         }
       >
-        R$ 99,90 Vitalício
+        R$ 50,00 Vitalício
       </Button>
     </div>
   );
