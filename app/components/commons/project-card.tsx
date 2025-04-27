@@ -28,8 +28,8 @@ export default function ProjectCard({
   async function handleClick() {
     if (!profileId || !project?.id )return 
 
-    if (isOwner) {
-      const success = await deleteProject(profileId, project?.id, project.imagePath);
+    if (isOwner && profileId) {
+      const success = await deleteProject(profileId as string, project?.id, project.imagePath);
       if (success) {
         router.refresh(); 
       }
